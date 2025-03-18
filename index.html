@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARK TECH - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="ARK TECH Logo" class="logo-img">
+      <h1>ARK TECH</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Welcome to ARK TECH</h2>
+      <p>Your go-to destination for the latest in technology. Shop gadgets, electronics, and more!</p>
+      <a href="products.html" class="shop-now-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <main>
+    <section class="products">
+      <h2>Our Featured Products</h2>
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Smartphone XYZ">
+          <h3>iQOO Z6 Lite 5G (Stellar Green, 6GB RAM, 128GB Storage)</h3>
+          <p class="price">₹25,000</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Smartphone XYZ', 25000)">Add to Cart</button>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="product2.jpg" alt="Laptop ABC">
+          <h3>Acer Aspire 7 Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD</h3>
+          <p class="price">₹45,000</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Laptop ABC', 45000)">Add to Cart</button>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="product3.jpg" alt="Wireless Headphones">
+          <h3>JBL Tune 770NC Active Noise Cancelling, 70Hr Playtime</h3>
+          <p class="price">₹7,500</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Wireless Headphones', 7500)">Add to Cart</button>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img src="product4.jpg" alt="Smartwatch Series 5">
+          <h3>Apple Watch Series 5 GPS + Cellular</h3>
+          <p class="price">₹10,000</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Smartwatch Series 5', 10000)">Add to Cart</button>
+        </div>
+        <!-- Additional products can be added here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 ARK TECH. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/arktech" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/arktech" target="_blank">Instagram</a>
+      <a href="https://www.twitter.com/arktech" target="_blank">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

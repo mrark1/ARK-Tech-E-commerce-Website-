@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - ARK TECH</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="ARK TECH Logo" class="logo-img">
+      <h1>ARK TECH</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <!-- Products Section -->
+  <main>
+    <section class="products">
+      <h2>Our Featured Products</h2>
+      <div class="product-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="product1.jpg" alt="Smartphone XYZ">
+          <h3>iQOO Z6 Lite 5G (Stellar Green, 6GB RAM, 128GB Storage)</h3>
+          <p class="price">₹25,000</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Smartphone XYZ', 25000)">Add to Cart</button>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="product2.jpg" alt="Laptop ABC">
+          <h3>Acer Aspire 7 Intel Core i5 12th Gen 12450H - (16 GB/512 GB SSD</h3>
+          <p class="price">₹45,000</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Laptop ABC', 45000)">Add to Cart</button>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="product3.jpg" alt="Wireless Headphones">
+          <h3>JBL Tune 770NC Active Noise Cancelling, 70Hr Playtime</h3>
+          <p class="price">₹7,500</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Wireless Headphones', 7500)">Add to Cart</button>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img src="product4.jpg" alt="Smartwatch Series 5">
+          <h3>Apple Watch Series 5 GPS + Cellular Network technology</h3>
+          <p class="price">₹10,000</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Smartwatch Series 5', 10000)">Add to Cart</button>
+        </div>
+        <!-- Product 5 -->
+        <div class="product-card">
+          <img src="product5.jpg" alt="Bluetooth Speaker">
+          <h3>GOVO GOSURROUND 900 |200W | 2.1 with 6.5'' Wired Subwoofer 200 W Bluetooth Soundbar</h3>
+          <p class="price">₹3,500</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Bluetooth Speaker', 3500)">Add to Cart</button>
+        </div>
+        <!-- Product 6 -->
+        <div class="product-card">
+          <img src="product6.jpg" alt="Gaming Mouse">
+          <h3>ENTWINO F-1 Gaming Mouse Wired For Computer Braided Wired Optical Gaming Mouse  (USB 2.0, Black)</h3>
+          <p class="price">₹1,200</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Gaming Mouse', 1200)">Add to Cart</button>
+        </div>
+        <!-- Product 7 -->
+        <div class="product-card">
+          <img src="product7.jpg" alt="Laptop Stand">
+          <h3>Portronics My Buddy K11 Laptop Stand, 360° Rotation, Adjustable & Foldable</h3>
+          <p class="price">₹800</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Laptop Stand', 800)">Add to Cart</button>
+        </div>
+        <!-- Product 8 -->
+        <div class="product-card">
+          <img src="product8.jpg" alt="Portable Charger">
+          <h3>boAt 20000 mAh 22.5 W Power Bank Steel Blue, Lithium Polymer, Fast Charging, Quick Charge  </h3>
+          <p class="price">₹1,500</p>
+          <button class="add-to-cart-btn" onclick="addToCart('Portable Charger', 1500)">Add to Cart</button>
+        </div>
+        <!-- Additional products can be added here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 ARK TECH. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/arktech" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/arktech" target="_blank">Instagram</a>
+      <a href="https://www.twitter.com/arktech" target="_blank">Twitter</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
